@@ -29,10 +29,10 @@ class Doctor
   def patients
 
     appointments.all.select do |appointment|
-     appointment.patient 
+     appointment.patient
 
     end
-    binding.pry
+  
   end
 
 end
