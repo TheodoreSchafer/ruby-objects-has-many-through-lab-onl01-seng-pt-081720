@@ -28,11 +28,11 @@ class Doctor
 
   def patients
 
-    appointments.all.select do |appointment|
+    appointments.map do |appointment|
      appointment.patient
 
     end
-  
+
   end
 
 end
